@@ -1,0 +1,46 @@
+body{
+    font-size: 15px;
+    color: #333;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    line-height: 1.7em;
+}
+header{
+    background: #393939;
+    color: #fff;
+    padding: 20px 10px;
+}
+header h1{
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 10px;
+}
+footer{
+    background: #393939;
+    color: #fff;
+    padding: 20px 10px;
+    text-align: center
+}
+.main{
+    margin: 15px 0;
+}
+.container{
+    max-width: 1020px;
+    width: 80%;
+    margin: 0 auto;
+}
+a.button{
+    background: #333;
+    color: #fff;
+    padding: 10px 5px;
+    margin-bottom: 10px;
+}
+.featured-image img,
+.container img{
+    width: 100%;
+    height: auto;
+    border: solid 2px #333;
+    box-shadow: -10px 10px 30px rgba(0,0,0,.3);
+}
