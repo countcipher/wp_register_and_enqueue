@@ -34,4 +34,16 @@ This page is what is used for showing the complete content of a single post
         </div>
     </div>
 
+    <?php
+
+    /**************************
+    *Comments are added here
+    **************************/
+    
+    comments_template();
+
+    ?>
+
+    <?php include('sidebar.php'); ?>
+
 <?php get_footer(); ?>

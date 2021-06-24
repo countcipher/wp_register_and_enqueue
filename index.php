@@ -9,6 +9,13 @@
             ?>
             <?php if(have_posts()) : ?>
                 <?php while(have_posts()): the_post(); ?>
+                    <div class="blog-roll-img">
+                        <?php if(has_post_thumbnail()) : ?>
+
+                            <?php the_post_thumbnail(); ?>
+
+                        <?php endif; ?>
+                    </div>
                     <h3>
                         <a href="<?php the_permalink(); ?>">
                             <?php the_title(); ?>
@@ -34,16 +41,6 @@
         </div>
     </div>
 
-    <div class="container">
-        <div class="sidebar">
-            
-            <?php if(is_active_sidebar('sidebar')) : ?>
-
-                <?php dynamic_sidebar('sidebar') ?>
-
-            <?php endif; ?>
-
-        </div>
-    </div>
+    <?php include('sidebar.php'); ?>
 
 <?php get_footer(); ?>

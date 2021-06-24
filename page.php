@@ -28,4 +28,6 @@ This page is what is used for showing the content of a page
         </div>
     </div>
 
+    <?php include('sidebar.php'); ?>
+
 <?php get_footer(); ?>
