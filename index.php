@@ -2,6 +2,11 @@
 
     <div class="main">
         <div class="container">
+        <?php
+            /****************
+             * This is the beginning of the WordPress loop
+             * ***************** */
+        ?>
             <?php if(have_posts()) : ?>
                 <?php while(have_posts()): the_post(); ?>
                     <h3>

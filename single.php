@@ -1,3 +1,8 @@
+<?php
+/*
+This page is what is used for showing the complete content of a single post
+*/
+?>
 <?php get_header(); ?>
 
     <div class="main">

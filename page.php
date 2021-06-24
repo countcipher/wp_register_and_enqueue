@@ -1,3 +1,8 @@
+<?php
+/*
+This page is what is used for showing the content of a page
+*/
+?>
 <?php get_header(); ?>
 
     <div class="main">
