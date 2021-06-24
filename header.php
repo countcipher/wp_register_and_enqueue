@@ -18,6 +18,16 @@
 <nav class="main-nav">
     <div class="container">
 
+    <?php
+    /*
+    Below is the code for placing a menu.
+    The name, i.e. 'primary' is the name
+    as set in the functions.php page
+
+    The menu will initially be generated
+    as an unordered list
+    */
+    ?>
         <?php wp_nav_menu([
             'theme_location'    =>  'primary'
         ]); ?>

@@ -28,3 +28,18 @@ function set_excerpt_length(){
 }
 
 add_filter('excerpt_length', 'set_excerpt_length');
+
+//Widget Locations
+function init_widgets($id){
+    //register_sidebar is the function always used for widgets, even if not a sidebar
+    register_sidebar([
+        'name'          =>  __('Sidebar on Side'),
+        'id'            =>  'sidebar',
+        'before_widget' =>  '<div class="side-widget">',
+        'after_widget'  =>  '</div>',
+        'before_title'  =>  '<h3>',
+        'after_title'   =>  '</h3>'
+    ]);
+}
+
+add_action('widgets_init', 'init_widgets');
