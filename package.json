@@ -1,0 +1,22 @@
+{
+  "name": "simple",
+  "version": "1.0.0",
+  "description": "This repository is intended to be utilized as a reference for WordPress registering and enqueueing of style and scripts.  Ultimately, it will also showcase other WordPress development functionality such as developing with the Customizer API.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://3d2842b07c4ca9581d5ca441a1f72ce8eb9e6e79:x-oauth-basic@github.com/countcipher/wp_register_and_enqueue.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/countcipher/wp_register_and_enqueue/issues"
+  },
+  "homepage": "https://github.com/countcipher/wp_register_and_enqueue#readme",
+  "devDependencies": {
+    "node-sass": "^6.0.1"
+  }
+}
