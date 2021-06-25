@@ -4,7 +4,7 @@
   "description": "This repository is intended to be utilized as a reference for WordPress registering and enqueueing of style and scripts.  Ultimately, it will also showcase other WordPress development functionality such as developing with the Customizer API.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "exec":"node-sass main.scss front-page-style.css -w"
   },
   "repository": {
     "type": "git",

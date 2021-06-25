@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+section.hero {
+  display: flex;
+  height: 50vh;
+  flex-direction: column;
+  background-image: linear-gradient(rgba(255, 0, 255, 0.5), rgba(255, 0, 255, 0.5)), url("https://cdn.pixabay.com/photo/2016/08/09/21/54/lake-1581879_960_720.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  align-items: center; }
+  section.hero h1 {
+    font-family: sans-serif;
+    color: #fff;
+    letter-spacing: 5px;
+    font-size: 65px;
+    margin-bottom: 15px;
+    text-align: center; }
+  section.hero h2 {
+    font-family: sans-serif;
+    color: #fff;
+    font-size: 25px;
+    margin-bottom: 25px; }
+  section.hero button {
+    background: #ea1f66;
+    color: #fff;
+    border: none;
+    padding: 15px 25px; }
